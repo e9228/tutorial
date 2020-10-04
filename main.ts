@@ -1,3 +1,10 @@
-basic.forever(function () {
-    ブロック.まえすすめ()
+input.onButtonPressed(Button.A, function () {
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    ブロック.うしろすすめ()
 })

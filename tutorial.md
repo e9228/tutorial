@@ -7,22 +7,14 @@ basic.clearScreen()
 input.onButtonPressed(Button.A, function () {
 })
 
-basic.forever(function () {
-    ブロック.まえすすめ()
-})
-
-
-
-basic.showLeds(`
-    . . . . .
-    . . . . .
-    . . . . .
-    . . . . .
-    . . . . .
-    `)
-
+    ブロック.うしろすすめ()
 
 ```
+
+```template
+let x = 0
+```
+
 
 ## Step 1
 まっすぐな線を5秒間点灯させてみよう！
