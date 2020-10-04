@@ -27,9 +27,7 @@ input.onButtonPressed(Button.A, function () {
 
 micro:bitに読み込んでみよう！
 
-```blocks
-ブロック.まえすすめ()
-```
+
 
 ## Step 2
 
