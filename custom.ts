@@ -22,5 +22,32 @@ namespace ブロック　{
     . . . . .
     `)
     }
+    //% block="とまれ"
+    //% weight=83
+    export function とまれ(){
+        basic.showLeds(`
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    `)
+    }
+    //% block="みぎまわれ"
+    //% weight=83
+    export function みぎまわれ(){
+     basic.showLeds(`
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    `)   
+    }
+    //% block="ひだりまわれ"
+    //% weight=83
+    export function ひだりまわれ(){
 
+    }
+    
 }
