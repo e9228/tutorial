@@ -13,6 +13,7 @@ input.onButtonPressed(Button.A, function () {
 
 ```template
 let x = 0
+ブロック.うしろすすめ()
 ```
 
 

@@ -10,6 +10,17 @@ namespace ブロック　{
     . . . . .
     . . . . .
     `)
-
     }
+    //% block="まえすすめ"
+    //% weight=89
+    export function まえすすめ (){
+        basic.showLeds(`
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    `)
+    }
+
 }
