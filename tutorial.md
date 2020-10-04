@@ -12,6 +12,7 @@ basic.clearScreen()
 input.onButtonPressed(Button.A, function () {
 })
 
+
 ```
 
 ```template
