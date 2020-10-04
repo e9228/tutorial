@@ -3,19 +3,17 @@
 
 ```ghost
 basic.pause(100)
+ブロック.うしろすすめ()
+ブロック.まえすすめ()
 basic.clearScreen()
 input.onButtonPressed(Button.A, function () {
 })
-
- ブロック.うしろすすめ()
- ブロック.まえすすめ()
 
 ```
 
 ```template
 let x = 0
-ブロック.うしろすすめ()
-ブロック.まえすすめ()
+basic.pause(100)
 ```
 
 
