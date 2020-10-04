@@ -7,13 +7,15 @@ basic.clearScreen()
 input.onButtonPressed(Button.A, function () {
 })
 
-    ブロック.うしろすすめ()
+ ブロック.うしろすすめ()
+ ブロック.まえすすめ()
 
 ```
 
 ```template
 let x = 0
 ブロック.うしろすすめ()
+ブロック.まえすすめ()
 ```
 
 

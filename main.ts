@@ -6,5 +6,6 @@ input.onButtonPressed(Button.A, function () {
         . . . . .
         . . . . .
         `)
+    ブロック.まえすすめ()
     ブロック.うしろすすめ()
 })
