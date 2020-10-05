@@ -6,8 +6,6 @@ basic.pause(100)
 ブロック.うしろすすめ()
 ブロック.まえすすめ()
 ブロック.とまれ()
-ブロック.みぎまわれ
-ブロック.ひだりまわれ
 basic.clearScreen()
 input.onButtonPressed(Button.A, function () {
 })
