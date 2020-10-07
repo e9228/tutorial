@@ -3,9 +3,7 @@
 
 ```ghost
 basic.pause(100)
-ブロック.うしろすすめ()
-ブロック.まえすすめ()
-ブロック.とまれ()
+どうさ.まえすすめ()
 basic.clearScreen()
 input.onButtonPressed(Button.A, function () {
 })
