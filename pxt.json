@@ -3,7 +3,8 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*"
+        "radio": "*",
+        "pxt-kitronik-I2C-16-servo": "github:kitronikltd/pxt-kitronik-i2c-16-servo#v0.9.2"
     },
     "files": [
         "main.blocks",
@@ -18,5 +19,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj"
 }
