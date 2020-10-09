@@ -3,10 +3,7 @@ input.onButtonPressed(Button.A, function () {
 })
 basic.forever(function () {
     どうさ.まえすすめ()
-    どうさ.うしろすすめ()
-    どうさ.みぎカニあるき()
-    どうさ.ひだりカニあるき()
     while (どうさ.センサーまえ()) {
-    	
+        どうさ.うしろすすめ()
     }
 })

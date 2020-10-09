@@ -111,6 +111,7 @@ namespace どうさ　{
     //% ms.defl=1000
     export function まえすすむじかん(ms: number) {
         /*miliSeconds = ms*/
+        まえすすめ()
         basic.pause(ms)
     }
 }

@@ -7,8 +7,12 @@ basic.pause(100)
 どうさ.うしろすすめ()
 どうさ.みぎカニあるき()
 どうさ.ひだりカニあるき()
-どうさ.センサーまえ()
-    
+basic.forever(function () {
+    どうさ.まえすすめ()
+    while (どうさ.センサーまえ()) {
+        どうさ.うしろすすめ()
+    }
+})  
 basic.clearScreen()
 input.onButtonPressed(Button.A, function () {
 })
