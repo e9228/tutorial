@@ -4,6 +4,11 @@
 ```ghost
 basic.pause(100)
 どうさ.まえすすめ()
+どうさ.うしろすすめ()
+どうさ.みぎカニあるき()
+どうさ.ひだりカニあるき()
+どうさ.センサーまえ()
+    
 basic.clearScreen()
 input.onButtonPressed(Button.A, function () {
 })
