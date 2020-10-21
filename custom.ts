@@ -104,14 +104,17 @@ namespace どうさ　{
         } else {return false;
          }
     }
+    //% block="みぎまわれ"
+    //% weight=80
+    export function みぎまわれ(){
 
-  //% block="まえすすむじかん $ms"
-    //% weight=88
-    //% ms.min=0 ms.max=5000
-    //% ms.defl=1000
-    export function まえすすむじかん(ms: number) {
-        /*miliSeconds = ms*/
-        まえすすめ()
-        basic.pause(ms)
     }
+        //% block="ひだりまわれ"
+    //% weight=78
+    export function ひだりまわれ(){
+
+    }
+
+
+
 }
