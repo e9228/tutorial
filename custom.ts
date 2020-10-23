@@ -114,6 +114,13 @@ namespace どうさ　{
     export function ひだりまわれ(){
 
     }
+    //% block="とまれ"
+    //% weight=84
+    export function とまれ(){
+        
+    }
+
+
 
 
 
