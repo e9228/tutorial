@@ -1,4 +1,7 @@
 input.onButtonPressed(Button.A, function () {
+    どうさ.まえすすめ()
+})
+basic.forever(function () {
     basic.showLeds(`
         . . # . .
         . . # . .
@@ -6,7 +9,4 @@ input.onButtonPressed(Button.A, function () {
         . . # . .
         . . # . .
         `)
-})
-basic.forever(function () {
-    どうさ.まえすすめ()
 })
