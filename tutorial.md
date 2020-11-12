@@ -38,7 +38,7 @@ input.onButtonPressed(Button.A, function () {
 
 2つのブロックがぴったりとはまるように組み合わせてみよう！
 
-```utorialhint
+```blocks
 input.onButtonPressed(Button.A, function () {
     どうさ.まえすすめ()
 })
